@@ -67,5 +67,5 @@ This project was developed as part of a **JavaScript Intern Training Program** c
 ## 👩‍💻 Author
 
 Maleesha Dilshani 
-JavaScript Intern  
+Intern Software Developer  
 2025
