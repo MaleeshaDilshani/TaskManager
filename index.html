@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Task Manager</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- NAVBAR -->
   <header>
-    <div class="logo">TaskPro</div> 
+    <div class="logo">TaskPro</div>
     <div class="menu-toggle" id="menuToggle">☰</div>
     <nav>
       <ul id="navMenu">
@@ -31,42 +33,42 @@
   </section>
 
   <!-- QUOTE SECTION -->
-<section class="app quote-section">
-  <h3> Quote of the Day</h3>
-  <p id="quoteText">Loading quote...</p>
-  <span id="quoteAuthor"></span>
-</section>
+  <section class="app quote-section">
+    <h3> Quote of the Day</h3>
+    <p id="quoteText">Loading quote...</p>
+    <span id="quoteAuthor"></span>
+  </section>
 
 
   <!-- DASHBOARD -->
-<section class="app dashboard" id="dashboard">
-  <h3>Task Dashboard</h3>
+  <section class="app dashboard" id="dashboard">
+    <h3>Task Dashboard</h3>
 
-  <div class="dashboard-cards">
-    <div class="card total">
-      <p>Total Tasks</p>
-      <h2 id="totalCount">0</h2>
+    <div class="dashboard-cards">
+      <div class="card total">
+        <p>Total Tasks</p>
+        <h2 id="totalCount">0</h2>
+      </div>
+
+      <div class="card completed">
+        <p>Completed</p>
+        <h2 id="completedCount">0</h2>
+      </div>
+
+      <div class="card pending">
+        <p>Pending</p>
+        <h2 id="pendingCount">0</h2>
+      </div>
     </div>
 
-    <div class="card completed">
-      <p>Completed</p>
-      <h2 id="completedCount">0</h2>
+    <!-- Progress Bar (Chart style) -->
+    <div class="progress-box">
+      <p>Completion Progress</p>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
     </div>
-
-    <div class="card pending">
-      <p>Pending</p>
-      <h2 id="pendingCount">0</h2>
-    </div>
-  </div>
-
-  <!-- Progress Bar (Chart style) -->
-  <div class="progress-box">
-    <p>Completion Progress</p>
-    <div class="progress-bar">
-      <div class="progress-fill" id="progressFill"></div>
-    </div>
-  </div>
-</section>
+  </section>
 
   <!-- APP -->
   <section class="app" id="tasks">
@@ -74,14 +76,14 @@
       <input type="text" id="taskInput" placeholder="Enter a task" />
       <button id="addBtn">Add</button>
     </div>
-  
 
 
 
-  <!-- Search Input -->
-  <div class="search-area" style="margin:10px 0;">
-    <input type="text" id="searchInput" placeholder="Search tasks..." />
-  </div>
+
+    <!-- Search Input -->
+    <div class="search-area" style="margin:10px 0;">
+      <input type="text" id="searchInput" placeholder="Search tasks..." />
+    </div>
     <ul id="taskList"></ul>
   </section>
 
@@ -89,21 +91,23 @@
   <section id="about" class="app">
     <h3>About </h3>
     <p class="about-text">
-    This Task Manager application helps users manage daily tasks in a simple and organized way. It is designed to improve productivity by making task tracking easy and accessible on any device.
-  </p>
-  <ul class="about-points">
-    <li>📝Easy task creation and management</li>
-    <li>📌Mark tasks as completed or pending</li>
-    <li>💾Tasks are saved automatically</li>
-    <li>🎨Clean and user-friendly interface</li>
-    <li>🚀Responsive design for all screen sizes</li>
-  </ul>
+      This Task Manager application helps users manage daily tasks in a simple and organized way. It is designed to
+      improve productivity by making task tracking easy and accessible on any device.
+    </p>
+    <ul class="about-points">
+      <li>📝Easy task creation and management</li>
+      <li>📌Mark tasks as completed or pending</li>
+      <li>💾Tasks are saved automatically</li>
+      <li>🎨Clean and user-friendly interface</li>
+      <li>🚀Responsive design for all screen sizes</li>
+    </ul>
   </section>
-<div id="toast"></div>
+  <div id="toast"></div>
   <footer>
-     2025 TaskPro | JavaScript Intern Project
+    2025 TaskPro | JavaScript Intern Project
   </footer>
 
   <script src="script.js"></script>
 </body>
+
 </html>
