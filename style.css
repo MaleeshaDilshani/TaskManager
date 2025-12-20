@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,7 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #f2f4f8;
 }
- 
+
 header {
   background: #270aac;
   color: rgb(255, 252, 252);
@@ -152,11 +150,12 @@ li button {
   font-size: 14px;
   color: #333;
 }
+
 li.completed {
   background: #dcfce7;
   border-left: 5px solid #22c55e;
   transition: all 0.3s ease;
-  
+
 }
 
 .completed-badge {
@@ -166,8 +165,9 @@ li.completed {
   padding: 5px 10px;
   border-radius: 12px;
   margin-left: 8px;
- 
+
 }
+
 .task-stats span {
   transition: transform 0.2s ease, color 0.2s ease;
 }
@@ -202,7 +202,7 @@ footer {
 }
 
 .about-text {
-  
+
   max-width: 800px;
   margin: 10px auto;
   font-size: 15px;
@@ -239,9 +239,17 @@ footer {
   color: white;
 }
 
-.card.total { background: #6366f1; }
-.card.completed { background: #22c55e; }
-.card.pending { background: #f97316; }
+.card.total {
+  background: #6366f1;
+}
+
+.card.completed {
+  background: #22c55e;
+}
+
+.card.pending {
+  background: #f97316;
+}
 
 .card p {
   font-size: 14px;
@@ -290,6 +298,7 @@ footer {
   border-radius: 6px;
   display: none;
 }
+
 .quote-section {
   text-align: center;
   margin-bottom: 20px;
