@@ -304,7 +304,7 @@ footer {
   margin-bottom: 20px;
   padding: 15px;
   border-radius: 10px;
-  background: #f9fafb;
+  background: #f1af34; 
 }
 
 .quote-section p {
@@ -315,5 +315,5 @@ footer {
 
 .quote-section span {
   font-size: 0.9rem;
-  color: #6b7280;
+  color: #7b8baa;
 }
