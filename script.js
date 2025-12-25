@@ -13,7 +13,7 @@ const totalCount = document.getElementById("totalCount");
 const completedCount = document.getElementById("completedCount");
 const pendingCount = document.getElementById("pendingCount");
 const themeToggle = document.getElementById("themeToggle");
-const toast = document.getElementById("toast");
+
 
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 let currentFilter = "all";
